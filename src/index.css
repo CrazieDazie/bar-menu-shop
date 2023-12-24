@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  background-color: rgb(39, 43, 51);
+}
+
+.block {
+  padding: 20px;
+  background-color: rgb(144, 146, 156);
+}
+
+img {
+  width: 500px;
+  
+}
+
+.imgDish {
+  margin: 10px 0px 20px 0px;
+  box-shadow: 0px 5px 10px 2px rgba(8, 8, 8, 0.8);
+  border-radius: 4px;
+}
+
+.cartIcon {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 70px;
+  box-shadow: 0px 5px 10px 2px rgba(8, 8, 8, 0.2);
+  padding: 4px 40px 8px 40px;
+  border-radius: 4px;
+}
+
+.categoryButtonSelected {
+  background-color: #add8e6;
+  border-radius: 20px 5px 30px 10px;
+  box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+}
+
+.categoryButton:hover {
+  background-color: #d7ebf1;
+  border-radius: 20px 5px 30px 10px;
+  box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+}
+
+.categoryButton {
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+
+.deleteIcon {
+  width: 9%;
+}
+
+.qtyAndButton {
+  display: flex;
+  justify-content: center;
+}
+
+
+p, h1, h2, h3, button {
+
+  font-family: 'DM Sans', sans-serif;
+
+  font-size: 20px;
+  margin: 0px;
+
+}
+
+button {
+  background-color: #add8e6;
+  padding: 5px 10px;
+  margin: 0px 6px 30px 6px;
+  border: none;
+  border-radius: 20px 5px 20px 10px;
+  box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+}
